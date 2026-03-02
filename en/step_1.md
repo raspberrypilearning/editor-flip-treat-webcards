@@ -1,45 +1,36 @@
-## What you will make
-OR
-## What you will do - change meta if you use this
+## Introduction
 
-A brief description - one or two sentences. 
+In this project, you will create a flip card with a treat from around the world. The card flips over when you hover over or tap it. 
+
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+<span style="color: #0faeb0">**Flip cards**</span> help people to interact with a webpage. Flip cards also allow you to provide extra information in a small space or hide information that shouldn't be immediately visible. Some common examples of animated flip cards are revision cards, business cards, social media contact cards, and product cards. 
+</p>
+
+You will:
++ Use CSS animations to create a **card that flips over** when it is interacted with
++ Apply a **gradient** background using CSS
++ Add and use a font from **Google Fonts**
+
+--- no-print ---
+
+--- task ---
+
+### Try it
+
+Explore this webcard. What happens when you hover over it? 
+
+Did you notice the background gradients and the fancy font?
+
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/flip-treat-webcards-step-5" width="550" height="400" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
+
+--- /task ---
+
+--- /no-print ---
 
 --- print-only ---
 
-![ALT TEXT](images/IMAGE.png)
+![alt=""](images/showcase_static.png)
 
 --- /print-only ---
 
---- no-print ---
-
-[Editor embed](https://editor.raspberrypi.org/en/embed/viewer/project-slug)
-
---- /no-print ---
-
---- no-print ---
-
-Video embed
-
-<video width="640" height="360" controls>
-<source src="images/videoname.mp4" type="video/mp4">
-</video>
-
-Youtube embed 
-<html>
-<div style="position: relative; overflow: hidden; padding-top: 56.25%;">
-<iframe style="position: absolute; top: 0; left: 0; right: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/XXXXXXXXX?rel=0&cc_load_policy=1" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share">
-</iframe>
-</div><br>
-</html>
-
-Scratch embed
-<div class="scratch-preview">
- <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/XXXXXXXXX/?autostart=false" frameborder="0"></iframe>
-</div>
-
---- /no-print ---
-
-### You will need:
-- a
-- b
-- c
+![](http://code.org/api/hour/begin_rp_webcards.png)
