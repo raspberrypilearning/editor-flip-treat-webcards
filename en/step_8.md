@@ -1,27 +1,40 @@
-## What next?
+<h2 class="c-project-heading--task">Challenge: Create Your Own Palette</h2>
 
-If you are following the [Intro to web](https://projects.raspberrypi.org/en/pathways/web-intro) path, you can move on to the [Mood board](https://projects.raspberrypi.org/en/projects/mood-board) project. In this project, you will make a webpage that combines colours, fonts, and images to create a look or style for an idea of your choice.
+--- task ---
+Design your own look by choosing new gradient colours for both sides of the card.
+--- /task ---
 
---- print-only ---
+--- task ---
+In `default.css`, replace the four gradient colour variables with colours you choose.
 
-![alt=""](images/happiness.PNG)
+<div class="c-project-code">
 
---- /print-only ---
+--- code ---
+---
+language: css
+filename: default.css
+line_numbers: true
+line_number_start: 3
+line_highlights: 5-6,12-13
+---
+:root {
+  --primary: #ffffff;
+  --secondary: #7b4397;
+  --tertiary: #56ab2f;
+  --page: #ffffff;
+  --onprimary: #664300;
+  --onsecondary: #664300;
+  --ontertiary: #ffffff;
+  --onpage: #000000;
+  --detail: #dc2430;
+  --detail2: #a8e063;
 
---- no-print ---
+--- /code ---
 
-### Try it
-<div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
-Take a look at the different styles that have been applied to the elements on this mood board. How many can you find?
 </div>
-<div>
-**Happiness**: [See inside](https://editor.raspberrypi.org/en/projects/happiness-mood-board){:target="_blank"}
-<div><iframe src="https://editor.raspberrypi.org/en/embed/viewer/happiness-mood-board" width="600" height="500" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen> </iframe>
-</div>
-</div>
-</div>
 
---- /no-print ---
+--- /task ---
 
-
+--- task ---
+**Test:** Run the project and check that your card now flips between the new colour gradients you selected.
+--- /task ---
