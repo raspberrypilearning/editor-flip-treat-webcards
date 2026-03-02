@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Round the Card Corners</h2>
+<h2 class="c-project-heading--task">Add Gradient Backgrounds</h2>
 
 --- task ---
-Add rounded corners to both card faces to give the card a softer style.
+Apply gradient classes to both card faces so the front and back use different colour blends.
 --- /task ---
 
 --- task ---
-Add the `rounded` class to both faces in `index.html`.
+Add gradient classes in `index.html`.
 
 <div class="c-project-code">
 
@@ -20,10 +20,10 @@ line_highlights: 32,35
        <section class="wrap">
          <div class="card">
             <div class="card-content">
-              <div class="card-face gradient1 rounded">
+              <div class="card-face gradient1">
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
               </div>
-              <div class="card-face flipme gradient2 rounded">
+              <div class="card-face flipme gradient2">
                 <h2>Lapis Sarawak</h2>
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>
@@ -38,5 +38,5 @@ line_highlights: 32,35
 --- /task ---
 
 --- task ---
-**Test:** Run the project and flip the card to check that both sides have rounded corners.
+**Test:** Run your project and flip the card to verify that both sides now have gradient backgrounds.
 --- /task ---

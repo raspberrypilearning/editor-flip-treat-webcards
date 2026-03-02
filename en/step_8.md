@@ -1,33 +1,28 @@
-<h2 class="c-project-heading--task">Challenge: Create Your Own Palette</h2>
+<h2 class="c-project-heading--task">Polish the Front Face</h2>
 
 --- task ---
-Design your own look by choosing new gradient colours for both sides of the card.
+Finish the front face by centering the image and applying the food image style class.
 --- /task ---
 
 --- task ---
-In `default.css`, replace the four gradient colour variables with colours you choose.
+Update the front face in `index.html`.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: default.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 3
-line_highlights: 5-6,12-13
+line_number_start: 33
+line_highlights: 34-35
 ---
-:root {
-  --primary: #ffffff;
-  --secondary: #7b4397;
-  --tertiary: #56ab2f;
-  --page: #ffffff;
-  --onprimary: #664300;
-  --onsecondary: #664300;
-  --ontertiary: #ffffff;
-  --onpage: #000000;
-  --detail: #dc2430;
-  --detail2: #a8e063;
+            <div class="card-content">
+              <div class="card-face ycenter rounded gradient1 shadow">
+                <img src="LapisSarawak02.png" alt="Lapis Sarawak" class="food" />
+              </div>
+              <div class="card-face flipme gradient2 rounded ycenter shadow">
+                <h2>Lapis Sarawak</h2>
 
 --- /code ---
 
@@ -36,5 +31,5 @@ line_highlights: 5-6,12-13
 --- /task ---
 
 --- task ---
-**Test:** Run the project and check that your card now flips between the new colour gradients you selected.
+**Test:** Run the project and confirm the image sits neatly centered on the front of the card.
 --- /task ---

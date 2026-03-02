@@ -9,6 +9,7 @@ listed: true
 copyedit: true
 last_tested: "2026-03-02"
 steps:
+  - title: You will make
   - title: Build Your First Card
   - title: Make the Card Flip
     completion:
@@ -22,5 +23,5 @@ steps:
   - title: Polish the Front Face
     completion:
       - external
-  - title: "Challenge"
+  - title: "Challenge: Create Your Own Palette"
     challenge: true

@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Add Gradient Backgrounds</h2>
+<h2 class="c-project-heading--task">Make the Card Flip</h2>
 
 --- task ---
-Apply gradient classes to both card faces so the front and back use different colour blends.
+Wrap your content with the flip-card classes so the card has a front face and a back face.
 --- /task ---
 
 --- task ---
-Add gradient classes in `index.html`.
+Update the card structure in `index.html`.
 
 <div class="c-project-code">
 
@@ -14,16 +14,17 @@ Add gradient classes in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 32,35
+line_number_start: 28
+line_highlights: 30-32,35
 ---
+    <main>
        <section class="wrap">
          <div class="card">
             <div class="card-content">
-              <div class="card-face gradient1">
+              <div class="card-face">
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
               </div>
-              <div class="card-face flipme gradient2">
+              <div class="card-face flipme">
                 <h2>Lapis Sarawak</h2>
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>
@@ -38,5 +39,5 @@ line_highlights: 32,35
 --- /task ---
 
 --- task ---
-**Test:** Run your project and flip the card to verify that both sides now have gradient backgrounds.
+**Test:** Click **Run**, then hover over or tap the card to confirm it flips and shows the text on the back.
 --- /task ---
