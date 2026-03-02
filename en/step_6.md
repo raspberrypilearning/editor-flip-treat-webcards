@@ -19,10 +19,10 @@ line_highlights: 34, 37
 ---
          <div class="card">
             <div class="card-content">
-              <div class="card-face gradient1 rounded shadow">
+              <div class="card-face gradient1 rounded shadow"> <!-- Add depth with a shadow -->
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
               </div>
-              <div class="card-face flipme gradient2 rounded ycenter shadow">
+              <div class="card-face flipme gradient2 rounded ycenter shadow"> <!-- Center back content and add shadow -->
                 <h2>Lapis Sarawak</h2>
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>

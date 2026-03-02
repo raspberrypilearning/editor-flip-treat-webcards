@@ -20,9 +20,9 @@ line_number_start: 13
 line_highlights: 16-18
 ---
   <!-- Import fonts from Google -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Speed up connection to the font server -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Allow font files from static assets host -->
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> <!-- Load the Bangers font -->
 
 --- /code ---
 
@@ -41,8 +41,8 @@ line_number_start: 15
 line_highlights: 16-17
 ---
   --body-font: 1.1rem Verdana, sans-serif;
-  --header-font: lighter 3rem Bangers, cursive;
-  --title-font: lighter 2rem Bangers, cursive;
+  --header-font: lighter 3rem Bangers, cursive; /* Use Bangers for large headings */
+  --title-font: lighter 2rem Bangers, cursive; /* Use Bangers for card titles */
 
 --- /code ---
 

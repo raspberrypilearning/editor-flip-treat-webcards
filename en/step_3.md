@@ -19,12 +19,12 @@ line_highlights: 30-32,35
 ---
     <main>
        <section class="wrap">
-         <div class="card">
-            <div class="card-content">
-              <div class="card-face">
+         <div class="card"> <!-- Outer card wrapper -->
+            <div class="card-content"> <!-- Element that rotates on hover -->
+              <div class="card-face"> <!-- Front face -->
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
               </div>
-              <div class="card-face flipme">
+              <div class="card-face flipme"> <!-- Back face rotated into position -->
                 <h2>Lapis Sarawak</h2>
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>
