@@ -9,18 +9,18 @@ listed: true
 copyedit: true
 last_tested: "2021-03-26"
 steps:
-  - title: Introduction
-  - title: Create your card
-  - title: Flip your card
-    completion: engaged
-  - title: Style your card
-  - title: Choose your font
-    completion: internal
-  - title: Reflection
-    knowledge_quiz:
-      path: quiz1
-      version: 1
-      questions: 3
-      passing_score: 3
-    completion: external
-  - title: Upgrade your project
+  - title: Build Your First Card
+  - title: Make the Card Flip
+    completion:
+      - engaged
+  - title: Add Gradient Backgrounds
+  - title: Round the Card Corners
+  - title: Center Text and Add Shadows
+  - title: Import a Display Font
+    completion:
+      - internal
+  - title: Polish the Front Face
+    completion:
+      - external
+  - title: Challenge: Create Your Own Palette
+    challenge: true
