@@ -15,7 +15,7 @@ language: css
 filename: default.css
 line_numbers: true
 line_number_start: 3
-line_highlights: 5-6,12-13
+line_highlights: 5-6, 12-13
 ---
 :root {
   --primary: #ffffff;

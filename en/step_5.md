@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 29
-line_highlights: 32,35
+line_highlights: 32, 35
 ---
        <section class="wrap">
          <div class="card">
