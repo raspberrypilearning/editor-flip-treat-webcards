@@ -22,5 +22,5 @@ steps:
   - title: Polish the Front Face
     completion:
       - external
-  - title: Challenge: Create Your Own Palette
+  - title: "Challenge"
     challenge: true
