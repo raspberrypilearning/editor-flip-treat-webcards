@@ -1,4 +1,4 @@
-<h2 class="c-project-heading--task">you will make</h2>
+<h2 class="c-project-heading--task">You will make</h2>
 
 --- task ---
 An interactive flip card about a sweet treat that turns over to reveal more information.
