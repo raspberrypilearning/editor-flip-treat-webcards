@@ -17,7 +17,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 13
-line_highlights: 16-18
+line_highlights: 14-16
 ---
   <!-- Import fonts from Google -->
   <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Speed up connection to the font server -->

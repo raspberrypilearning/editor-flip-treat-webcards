@@ -15,7 +15,7 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 31
-line_highlights: 34, 37
+line_highlights: 33, 36
 ---
          <div class="card">
             <div class="card-content">
