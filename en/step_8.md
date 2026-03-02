@@ -18,8 +18,8 @@ line_number_start: 33
 line_highlights: 34-35
 ---
             <div class="card-content">
-              <div class="card-face ycenter rounded gradient1 shadow">
-                <img src="LapisSarawak02.png" alt="Lapis Sarawak" class="food" />
+              <div class="card-face ycenter rounded gradient1 shadow"> <!-- Center the front face content -->
+                <img src="LapisSarawak02.png" alt="Lapis Sarawak" class="food" /> <!-- Apply the food image sizing class -->
               </div>
               <div class="card-face flipme gradient2 rounded ycenter shadow">
                 <h2>Lapis Sarawak</h2>

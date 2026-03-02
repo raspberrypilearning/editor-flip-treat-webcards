@@ -29,7 +29,7 @@ line_highlights: 13,29-37
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Appears on the web browser tab and search results -->
-  <title>Treat flip cards</title>
+  <title>Treat flip cards</title> <!-- Set the browser tab title -->
   
   <!-- Import fonts from Google -->
 
@@ -45,13 +45,13 @@ line_highlights: 13,29-37
 <body> 
 
     <main>
-      <section class="wrap">
-        <div>
-          <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
+      <section class="wrap"> <!-- Keep card layout responsive -->
+        <div> <!-- Front content container -->
+          <img src="LapisSarawak02.png" alt="Lapis Sarawak" /> <!-- Show the treat image -->
         </div>
-        <div>
-          <h2>Lapis Sarawak</h2>
-          <p>A cake baked in layers to make colourful patterns.</p>
+        <div> <!-- Back text container -->
+          <h2>Lapis Sarawak</h2> <!-- Card heading -->
+          <p>A cake baked in layers to make colourful patterns.</p> <!-- Card description -->
         </div>
       </section>
 

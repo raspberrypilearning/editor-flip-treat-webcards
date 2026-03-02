@@ -19,15 +19,15 @@ line_highlights: 5-6, 12-13
 ---
 :root {
   --primary: #ffffff;
-  --secondary: #7b4397;
-  --tertiary: #56ab2f;
+  --secondary: #7b4397; /* Front gradient start colour */
+  --tertiary: #56ab2f; /* Back gradient start colour */
   --page: #ffffff;
   --onprimary: #664300;
   --onsecondary: #664300;
   --ontertiary: #ffffff;
   --onpage: #000000;
-  --detail: #dc2430;
-  --detail2: #a8e063;
+  --detail: #dc2430; /* Front gradient end colour */
+  --detail2: #a8e063; /* Back gradient end colour */
 
 --- /code ---
 
