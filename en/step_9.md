@@ -38,3 +38,11 @@ line_highlights: 5-6, 12-13
 --- task ---
 **Test:** Run the project and check that your card now flips between the new colour gradients you selected.
 --- /task ---
+
+--- task ---
+**Extra challenge:** Add a second card.
+
+<div class="c-project-callout c-project-callout--tip" style="font-size: 1.1em">
+  <strong>Tip:</strong> Duplicate your existing `<div class="card">...</div>` block inside `<section class="wrap">`, then change the image file, heading, paragraph, and `alt` text.
+</div>
+--- /task ---
