@@ -38,6 +38,11 @@ line_highlights: 30-32,35,38-39
 
 --- /task ---
 
+<div class="c-project-output">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-3" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
 --- task ---
 **Test:** Click **Run**, then hover over or tap the card to confirm it flips and shows the text on the back.
 --- /task ---

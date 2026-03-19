@@ -27,6 +27,11 @@ line_highlights: 16-17
 
 --- /task ---
 
+<div class="c-project-output">
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-6" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  </iframe>
+</div>
+
 --- task ---
 **Test:** Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.
 --- /task ---
