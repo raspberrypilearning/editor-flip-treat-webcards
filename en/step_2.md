@@ -5,7 +5,7 @@ Create the first treat card content so you can see an image and description on y
 --- /task ---
 
 --- task ---
-Open the [Flip treat webcards starter project](https://editor.raspberrypi.org/en/projects/editor-flip-treat-webcards-starter){:target="_blank"}, then update `index.html`.
+Update `index.html`.
 
 <div class="c-project-code">
 
@@ -29,7 +29,7 @@ line_highlights: 13,29-37
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
   <!-- Appears on the web browser tab and search results -->
-  <title>Treat flip cards</title> <!-- Set the browser tab title -->
+  <title>Treat flip cards</title>
   
   <!-- Import fonts from Google -->
 
@@ -45,13 +45,13 @@ line_highlights: 13,29-37
 <body> 
 
     <main>
-      <section class="wrap"> <!-- Keep card layout responsive -->
-        <div> <!-- Front content container -->
-          <img src="LapisSarawak02.png" alt="Lapis Sarawak" /> <!-- Show the treat image -->
+      <section class="wrap">
+        <div>
+          <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
         </div>
-        <div> <!-- Back text container -->
-          <h2>Lapis Sarawak</h2> <!-- Card heading -->
-          <p>A cake baked in layers to make colourful patterns.</p> <!-- Card description -->
+        <div>
+          <h2>Lapis Sarawak</h2>
+          <p>A cake baked in layers to make colourful patterns.</p>
         </div>
       </section>
 
@@ -69,7 +69,7 @@ line_highlights: 13,29-37
 --- /task ---
 
 <div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
