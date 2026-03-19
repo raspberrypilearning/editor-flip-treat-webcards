@@ -29,7 +29,7 @@ line_highlights: 17-19
 --- /task ---
 
 --- task ---
-Now switch to `default.css` so you can apply the imported font in your CSS.
+In the **file menu**, select `default.css` so you can apply the imported font in your CSS.
 --- /task ---
 
 --- task ---
