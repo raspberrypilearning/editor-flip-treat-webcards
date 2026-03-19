@@ -1,25 +1,28 @@
-<h2 class="c-project-heading--task">Apply the Display Font</h2>
+<h2 class="c-project-heading--task">Polish the Front Face</h2>
 
 --- task ---
-Apply the imported font so the page heading and card title use a decorative style.
+Finish the front face by centring the image and applying the food image style class.
 --- /task ---
 
 --- task ---
-Update the font variables in `default.css`.
+Update the front face in `index.html`.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: css
-filename: default.css
+language: html
+filename: index.html
 line_numbers: true
-line_number_start: 15
-line_highlights: 16-17
+line_number_start: 34
+line_highlights: 35-36
 ---
-  --body-font: 1.1rem Verdana, sans-serif;
-  --header-font: lighter 3rem Bangers, cursive;
-  --title-font: lighter 2rem Bangers, cursive;
+            <div class="card-content">
+              <div class="card-face ycenter rounded gradient1 shadow">
+                <img src="LapisSarawak02.png" alt="Lapis Sarawak" class="food" />
+              </div>
+              <div class="card-face flipme gradient2 rounded ycenter shadow">
+                <h2>Lapis Sarawak</h2>
 
 --- /code ---
 
@@ -28,10 +31,10 @@ line_highlights: 16-17
 --- /task ---
 
 <div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-6" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-7" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
 --- task ---
-**Test:** Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.
+**Test:** Run the project and confirm the image sits neatly centred on the front of the card.
 --- /task ---

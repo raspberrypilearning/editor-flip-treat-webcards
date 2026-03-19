@@ -18,7 +18,6 @@ steps:
   - title: Import a Display Font
     completion:
       - internal
-  - title: Apply the Display Font
   - title: Polish the Front Face
     completion:
       - external
