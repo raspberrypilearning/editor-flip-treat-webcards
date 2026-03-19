@@ -1,13 +1,11 @@
-<h2 class="c-project-heading--task">Import a Display Font</h2>
+<h2 class="c-project-heading--task">Polish the Front Face</h2>
 
 --- task ---
-Import a Google Font and apply it so the card heading uses a decorative style.
+Finish the front face by centring the image and applying the food image style class.
 --- /task ---
 
 --- task ---
-Add the font link to `index.html`, then update the font variables in `default.css`.
-
-Code snippet 1: add the Google Fonts stylesheet link in `index.html`.
+Update the front face in `index.html`.
 
 <div class="c-project-code">
 
@@ -16,33 +14,15 @@ Code snippet 1: add the Google Fonts stylesheet link in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 13
-line_highlights: 14-16
+line_number_start: 34
+line_highlights: 35-36
 ---
-  <!-- Import fonts from Google -->
-  <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- Speed up connection to the font server -->
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- Allow font files from static assets host -->
-  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet"> <!-- Load the Bangers font -->
-
---- /code ---
-
-</div>
-
-Code snippet 2: switch heading and title fonts in `default.css`.
-
-<div class="c-project-code">
-
---- code ---
----
-language: css
-filename: default.css
-line_numbers: true
-line_number_start: 15
-line_highlights: 16-17
----
-  --body-font: 1.1rem Verdana, sans-serif;
-  --header-font: lighter 3rem Bangers, cursive; /* Use Bangers for large headings */
-  --title-font: lighter 2rem Bangers, cursive; /* Use Bangers for card titles */
+            <div class="card-content">
+              <div class="card-face ycenter rounded gradient1 shadow">
+                <img src="LapisSarawak02.png" alt="Lapis Sarawak" class="food" />
+              </div>
+              <div class="card-face flipme gradient2 rounded ycenter shadow">
+                <h2>Lapis Sarawak</h2>
 
 --- /code ---
 
@@ -51,5 +31,5 @@ line_highlights: 16-17
 --- /task ---
 
 --- task ---
-**Test:** Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.
+**Test:** Run the project and confirm the image sits neatly centred on the front of the card.
 --- /task ---

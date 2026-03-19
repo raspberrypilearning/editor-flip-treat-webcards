@@ -1,33 +1,25 @@
-<h2 class="c-project-heading--task">Center Text and Add Shadows</h2>
+<h2 class="c-project-heading--task">Apply the Display Font</h2>
 
 --- task ---
-Improve readability and depth by centering the back content and adding shadows to both faces.
+Apply the imported font so the page heading and card title use a decorative style.
 --- /task ---
 
 --- task ---
-Update your card face classes in `index.html`.
+Update the font variables in `default.css`.
 
 <div class="c-project-code">
 
 --- code ---
 ---
-language: html
-filename: index.html
+language: css
+filename: default.css
 line_numbers: true
-line_number_start: 31
-line_highlights: 33, 36
+line_number_start: 15
+line_highlights: 16-17
 ---
-         <div class="card">
-            <div class="card-content">
-              <div class="card-face gradient1 rounded shadow"> <!-- Add depth with a shadow -->
-                <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
-              </div>
-              <div class="card-face flipme gradient2 rounded ycenter shadow"> <!-- Center back content and add shadow -->
-                <h2>Lapis Sarawak</h2>
-                <p>A cake baked in layers to make colourful patterns.</p>
-              </div>
-            </div>
-        </div>
+  --body-font: 1.1rem Verdana, sans-serif;
+  --header-font: lighter 3rem Bangers, cursive;
+  --title-font: lighter 2rem Bangers, cursive;
 
 --- /code ---
 
@@ -36,5 +28,5 @@ line_highlights: 33, 36
 --- /task ---
 
 --- task ---
-**Test:** Run the project and flip the card to confirm the text sits centrally on the back and both faces have a shadow.
+**Test:** Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.
 --- /task ---

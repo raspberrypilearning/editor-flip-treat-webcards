@@ -15,16 +15,16 @@ language: html
 filename: index.html
 line_numbers: true
 line_number_start: 28
-line_highlights: 30-32,35
+line_highlights: 30-32,35,38-39
 ---
     <main>
        <section class="wrap">
-         <div class="card"> <!-- Outer card wrapper -->
-            <div class="card-content"> <!-- Element that rotates on hover -->
-              <div class="card-face"> <!-- Front face -->
+         <div class="card">
+            <div class="card-content">
+              <div class="card-face">
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
               </div>
-              <div class="card-face flipme"> <!-- Back face rotated into position -->
+              <div class="card-face flipme">
                 <h2>Lapis Sarawak</h2>
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>

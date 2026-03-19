@@ -1,11 +1,11 @@
-<h2 class="c-project-heading--task">Round the Card Corners</h2>
+<h2 class="c-project-heading--task">Import a Display Font</h2>
 
 --- task ---
-Add rounded corners to both card faces to give the card a softer style.
+Import a Google Font so it is ready to use in your card styles.
 --- /task ---
 
 --- task ---
-Add the `rounded` class to both faces in `index.html`.
+Add the Google Fonts stylesheet link in `index.html`.
 
 <div class="c-project-code">
 
@@ -14,22 +14,13 @@ Add the `rounded` class to both faces in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 29
-line_highlights: 32, 35
+line_number_start: 16
+line_highlights: 17-19
 ---
-       <section class="wrap">
-         <div class="card">
-            <div class="card-content">
-              <div class="card-face gradient1 rounded"> <!-- Round the front face corners -->
-                <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
-              </div>
-              <div class="card-face flipme gradient2 rounded"> <!-- Round the back face corners -->
-                <h2>Lapis Sarawak</h2>
-                <p>A cake baked in layers to make colourful patterns.</p>
-              </div>
-            </div>
-        </div>
-      </section>
+  <!-- Import fonts from Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
 --- /code ---
 
@@ -38,5 +29,5 @@ line_highlights: 32, 35
 --- /task ---
 
 --- task ---
-**Test:** Run the project and flip the card to check that both sides have rounded corners.
+**Test:** Run the project. You will not see a visible change yet, but the font is now available for your CSS to use.
 --- /task ---

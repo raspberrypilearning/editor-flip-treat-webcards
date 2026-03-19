@@ -1,8 +1,8 @@
-title: Flip treat webcards
+title: Treat flip cards
 hero_image: images/banner.png
 description: Create a set of interactive cards that tell people about sweet treats from around the world.
 pdf: resources/rpfi-flip-your-card.pdf
-meta_title: CSS tutorial | Learn web development | Flip treat webcards
+meta_title: CSS tutorial | Learn web development | Treat flip cards
 meta_description: In this CSS tutorial you will learn web development with the Raspberry Pi Foundation. Use CSS animations to create interactive cards that flip over.
 version: 4
 listed: true
@@ -14,12 +14,11 @@ steps:
   - title: Make the Card Flip
     completion:
       - engaged
-  - title: Add Gradient Backgrounds
-  - title: Round the Card Corners
-  - title: Center Text and Add Shadows
+  - title: Style the Card Faces
   - title: Import a Display Font
     completion:
       - internal
+  - title: Apply the Display Font
   - title: Polish the Front Face
     completion:
       - external
