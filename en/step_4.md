@@ -1,11 +1,10 @@
-<h2 class="c-project-heading--task">Style the Card Faces</h2>
+<h2 class="c-project-heading--task">Import a Display Font</h2>
 
---- task ---
-Add the card styling classes in one go so both faces get gradients, rounded corners, shadows, and centred back text.
---- /task ---
+### Step 1
+Import a Google Font and apply it so the page heading and card title use a decorative style.
 
---- task ---
-Update the card face classes in `index.html`.
+### Step 2
+Add the Google Fonts stylesheet link in `index.html`.
 
 <div class="c-project-code">
 
@@ -14,30 +13,48 @@ Update the card face classes in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 31
-line_highlights: 32, 35
+line_number_start: 16
+line_highlights: 17-19
 ---
-            <div class="card-content">
-              <div class="card-face gradient1 rounded shadow">
-                <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
-              </div>
-              <div class="card-face flipme gradient2 rounded ycenter shadow">
-                <h2>Lapis Sarawak</h2>
-                <p>A cake baked in layers to make colourful patterns.</p>
-              </div>
-            </div>
+  <!-- Import fonts from Google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
 
 --- /code ---
 
 </div>
 
---- /task ---
+
+### Step 3
+In the **file menu**, select `default.css` so you can apply the imported font in your CSS.
+
+### Step 4
+Update the font variables in `default.css`.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: css
+filename: default.css
+line_numbers: true
+line_number_start: 15
+line_highlights: 16-17
+---
+  --body-font: 1.1rem Verdana, sans-serif;
+  --header-font: lighter 3rem Bangers, cursive;
+  --title-font: lighter 2rem Bangers, cursive;
+
+--- /code ---
+
+</div>
+
 
 <div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-4" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-6" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
---- task ---
-**Test:** Run the project and flip the card to check that both sides have gradients and shadows, and that the back text sits in the centre.
---- /task ---
+### Step 5
+**Test:** Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.

@@ -1,14 +1,75 @@
-<h2 class="c-project-heading--task">You will make</h2>
+<h2 class="c-project-heading--task">Build Your First Card</h2>
 
---- task ---
-An interactive flip card about a sweet treat that turns over to reveal more information.
---- /task ---
+### Step 1
+Create the first treat card content so you can see an image and description on your page.
+
+### Step 2
+Update `index.html`.
+
+<div class="c-project-code">
+
+--- code ---
+---
+language: html
+filename: index.html
+line_numbers: true
+line_number_start: 1
+line_highlights: 13,29-37
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- This part is for extra information the browser needs to load the page correctly-->
+<head>
+  
+  <meta charset="utf-8">
+    
+  <!-- Don't shrink the page on mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Appears on the web browser tab and search results -->
+  <title>Treat flip cards</title>
+  
+  <!-- Import fonts from Google -->
+
+  
+  <!-- Include CSS style file -->
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="default.css" rel="stylesheet" type="text/css" />
+  <link href="animation.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<!-- The content that appears in the browser  -->
+<body> 
+
+    <main>
+      <section class="wrap">
+        <div>
+          <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
+        </div>
+        <div>
+          <h2>Lapis Sarawak</h2>
+          <p>A cake baked in layers to make colourful patterns.</p>
+        </div>
+      </section>
+
+
+    </main>
+
+</body>
+
+</html>
+
+--- /code ---
+
+</div>
+
 
 <div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-complete" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-2" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
-<div class="c-project-callout c-project-callout--tip" style="font-size: 1.1em">
-  <strong>Tip:</strong> Hover over the card, or tap it on touch devices, to see both sides of the flip effect.
-</div>
+### Step 3
+**Test:** Click **Run** and check that your page shows the Lapis Sarawak image with its heading and description.

@@ -1,11 +1,10 @@
-<h2 class="c-project-heading--task">Make the Card Flip</h2>
+<h2 class="c-project-heading--task">Style the Card Faces</h2>
 
---- task ---
-Wrap your content with the flip-card classes so the card has a front face and a back face.
---- /task ---
+### Step 1
+Add the card styling classes in one go so both faces get gradients, rounded corners, shadows, and centred back text.
 
---- task ---
-Update the card structure in `index.html`.
+### Step 2
+Update the card face classes in `index.html`.
 
 <div class="c-project-code">
 
@@ -14,35 +13,28 @@ Update the card structure in `index.html`.
 language: html
 filename: index.html
 line_numbers: true
-line_number_start: 28
-line_highlights: 30-32,35,38-39
+line_number_start: 31
+line_highlights: 32, 35
 ---
-    <main>
-       <section class="wrap">
-         <div class="card">
             <div class="card-content">
-              <div class="card-face">
+              <div class="card-face gradient1 rounded shadow">
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
               </div>
-              <div class="card-face flipme">
+              <div class="card-face flipme gradient2 rounded ycenter shadow">
                 <h2>Lapis Sarawak</h2>
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>
             </div>
-        </div>
-      </section>
 
 --- /code ---
 
 </div>
 
---- /task ---
 
 <div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-3" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-4" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
   </iframe>
 </div>
 
---- task ---
-**Test:** Click **Run**, then hover over or tap the card to confirm it flips and shows the text on the back.
---- /task ---
+### Step 3
+**Test:** Run the project and flip the card to check that both sides have gradients and shadows, and that the back text sits in the centre.
