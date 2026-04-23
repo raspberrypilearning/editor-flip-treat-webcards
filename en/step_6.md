@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Challenge: Create Your Own Palette</h2>
 
-### Step 1
 Design your own look by choosing new gradient colours for both sides of the card.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 In `default.css`, replace the four gradient colour variables with colours you choose.
 
 <div class="c-project-code">
@@ -38,10 +38,10 @@ line_highlights: 5-6, 12-13
   </iframe>
 </div>
 
-### Step 3
-**Test:** Run the project and check that your card now flips between the new colour gradients you selected.
+## Now run your code
 
-### Step 4
+Run the project and check that your card now flips between the new colour gradients you selected.
+
 **Extra challenge:** Add a second card.
 
 <div class="c-project-callout c-project-callout--tip" style="font-size: 1.1em">

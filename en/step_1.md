@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Build Your First Card</h2>
 
-### Step 1
 Create the first treat card content so you can see an image and description on your page.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Update `index.html`.
 
 <div class="c-project-code">
@@ -71,5 +71,6 @@ line_highlights: 13,29-37
   </iframe>
 </div>
 
-### Step 3
-**Test:** Click **Run** and check that your page shows the Lapis Sarawak image with its heading and description.
+## Now run your code
+
+Click **Run** and check that your page shows the Lapis Sarawak image with its heading and description.

@@ -1,9 +1,11 @@
 <h2 class="c-project-heading--task">Import a Display Font</h2>
 
-### Step 1
 Import a Google Font and apply it so the page heading and card title use a decorative style.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
+## Step 1
+
 Add the Google Fonts stylesheet link in `index.html`.
 
 <div class="c-project-code">
@@ -25,11 +27,12 @@ line_highlights: 17-19
 
 </div>
 
+## Step 2
 
-### Step 3
 In the **file menu**, select `default.css` so you can apply the imported font in your CSS.
 
-### Step 4
+## Step 3
+
 Update the font variables in `default.css`.
 
 <div class="c-project-code">
@@ -56,5 +59,6 @@ line_highlights: 16-17
   </iframe>
 </div>
 
-### Step 5
-**Test:** Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.
+## Now run your code
+
+Run the project and flip the card to check that the `Lapis Sarawak` heading now uses the new display font.

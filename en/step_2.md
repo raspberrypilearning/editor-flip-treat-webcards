@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Make the Card Flip</h2>
 
-### Step 1
 Wrap your content with the flip-card classes so the card has a front face and a back face.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Update the card structure in `index.html`.
 
 <div class="c-project-code">
@@ -41,5 +41,6 @@ line_highlights: 30-32,35,38-39
   </iframe>
 </div>
 
-### Step 3
-**Test:** Click **Run**, then hover over or tap the card to confirm it flips and shows the text on the back.
+## Now run your code
+
+Click **Run**, then hover over or tap the card to confirm it flips and shows the text on the back.

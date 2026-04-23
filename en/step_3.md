@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Style the Card Faces</h2>
 
-### Step 1
 Add the card styling classes in one go so both faces get gradients, rounded corners, shadows, and centred back text.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Update the card face classes in `index.html`.
 
 <div class="c-project-code">
@@ -36,5 +36,6 @@ line_highlights: 32, 35
   </iframe>
 </div>
 
-### Step 3
-**Test:** Run the project and flip the card to check that both sides have gradients and shadows, and that the back text sits in the centre.
+## Now run your code
+
+Run the project and flip the card to check that both sides have gradients and shadows, and that the back text sits in the centre.

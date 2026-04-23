@@ -1,9 +1,9 @@
 <h2 class="c-project-heading--task">Polish the Front Face</h2>
 
-### Step 1
 Finish the front face by centring the image and applying the food image style class.
 
-### Step 2
+<h2 class="c-project-heading--explainer">Follow these instructions</h2>
+
 Update the front face in `index.html`.
 
 <div class="c-project-code">
@@ -33,5 +33,6 @@ line_highlights: 35-36
   </iframe>
 </div>
 
-### Step 3
-**Test:** Run the project and confirm the image sits neatly centred on the front of the card.
+## Now run your code
+
+Run the project and confirm the image sits neatly centred on the front of the card.
