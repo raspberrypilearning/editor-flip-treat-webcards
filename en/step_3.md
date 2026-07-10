@@ -1,21 +1,10 @@
-<h2 class="c-project-heading--task">Style the Card Faces</h2>
+## Style the Card Faces
 
-### Step 1
 Add the card styling classes in one go so both faces get gradients, rounded corners, shadows, and centred back text.
 
-### Step 2
 Update the card face classes in `index.html`.
 
-<div class="c-project-code">
-
---- code ---
----
-language: html
-filename: index.html
-line_numbers: true
-line_number_start: 31
-line_highlights: 32, 35
----
+```html filename="index.html" line_numbers="true" line_number_start="31" line_highlights="32,35"
             <div class="card-content">
               <div class="card-face gradient1 rounded shadow">
                 <img src="LapisSarawak02.png" alt="Lapis Sarawak" />
@@ -25,16 +14,11 @@ line_highlights: 32, 35
                 <p>A cake baked in layers to make colourful patterns.</p>
               </div>
             </div>
+```
 
---- /code ---
+## Now run your code
 
-</div>
+Run the project and flip the card to check that both sides have gradients and shadows, and that the back text sits in the centre.
 
-
-<div class="c-project-output">
-  <iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-4" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
-  </iframe>
-</div>
-
-### Step 3
-**Test:** Run the project and flip the card to check that both sides have gradients and shadows, and that the back text sits in the centre.
+<iframe src="https://editor.raspberrypi.org/en/embed/viewer/editor-flip-treat-webcards-step-4" width="600" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
+</iframe>
